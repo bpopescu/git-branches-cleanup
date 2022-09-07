@@ -1,0 +1,23 @@
+{
+  "name": "bpopescu/git-branches-cleanup",
+  "description": "A tool to clean git repository",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bogdan Popescu",
+      "email": "bogdan@bxg.ro"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-curl": "*",
+    "php": "^7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bpopescu\\GitBranchesCleanup\\": "./src"
+    }
+  }
+}
